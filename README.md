@@ -1,6 +1,6 @@
-# ChatBotX
+# poem_robot
 
-本项目是基于transformers构建的对诗模型。受启发于另外一个使用seq2seq模型构建的[单轮对话模型](https://github.com/Schellings/Seq2SeqModel)。
+本项目是基于transformers库构建的对诗模型。受启发于另外一个使用seq2seq模型构建的[单轮对话模型](https://github.com/Schellings/Seq2SeqModel)。
 
 目前模型的效果一般，待进一步完善...
 
@@ -54,3 +54,5 @@ python train.py
 python main.py
 ```
 
+## 注意
+当前仅支持中文对诗，输入英文会出错。如果使用vs code且遇到对诗页面加载不出来的情况，请转到PyCharm运行。
